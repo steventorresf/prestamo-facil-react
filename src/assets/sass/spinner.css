@@ -1,0 +1,22 @@
+.spinnerCustom {
+    cursor: wait;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(245, 245, 245, .6);
+    z-index: 99999;
+}
+
+.spinner-border {
+    width: 8rem;
+    height: 8rem;
+}
+
+.spinner-text {
+    font-size: 1.5rem;
+}

@@ -1,0 +1,27 @@
+#main-container {
+    background-image: url('../imgs/fondo.jpg');
+}
+
+.w-login {
+    width: 95%;
+}
+
+.card-login {
+    background-color: rgba(245, 245, 245, .8);
+}
+
+@media (min-width:668px) {
+    .w-login {
+        width: 50%;
+    }
+}
+
+@media (min-width:1124px) {
+    .w-login {
+        width: 30%;
+    }
+}
+
+.design-by {
+    font-size: 0.75rem;
+}

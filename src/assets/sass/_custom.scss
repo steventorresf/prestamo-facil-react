@@ -1,0 +1,40 @@
+.btn-block {
+    width: 100%;
+}
+
+.form-control.invalid {
+    border-color: #dc3545 !important;
+}
+
+.form-control.invalid:focus {
+    box-shadow: 0 0 0 .25rem #ebbabe !important;
+}
+
+.invalid .css-13cymwt-control {
+    border-color: #dc3545 !important;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.row {
+    margin: 0;
+}
+
+.btn-menu {
+
+    i,
+    svg {
+        font-size: 1rem;
+    }
+}
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+    background-color: #0d6efd !important;
+}
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm:focus {
+    box-shadow: 0 0 0 3px #0d6efd !important;
+    border-color:#0d6efd !important;
+}
