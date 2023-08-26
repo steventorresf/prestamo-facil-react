@@ -2,11 +2,10 @@ import { useEffect, useState } from "react";
 import { Button, Col, Modal, Row } from "react-bootstrap";
 import { getTablaDetalleByCodigos } from "../shared/services/tablaService";
 import { Form, Formik } from "formik";
-import FormikSelect from "../shared/components/select";
-import FormikText from "../shared/components/input";
 import * as Yup from 'yup';
 import { create, update } from "../shared/services/clienteService";
 import { AlertSuccess } from "../shared/services/alertService";
+import { FormikSelect, FormikText } from "../shared/components/FormikControl";
 
 const yupSchema = Yup.object().shape({
     tipoId: Yup.string().required("Este campo es obligatorio"),

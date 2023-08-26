@@ -1,7 +1,7 @@
 import { Button } from "react-bootstrap";
-import TableClientes from "./table";
 import { useState } from "react";
-import FormCliente from "./form";
+import FormCliente from "./Form";
+import TableClientes from "./Table";
 
 const IndexClientes = () => {
     const [textFilterInput, setTextFilterInput] = useState('');

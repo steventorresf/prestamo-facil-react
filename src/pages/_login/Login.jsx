@@ -2,11 +2,11 @@ import '../../assets/sass/login.css';
 import { Formik, Form } from "formik";
 import { Button, Card, Col, Row } from "react-bootstrap";
 import * as Yup from 'yup';
-import FormikText from "../shared/components/input";
 import { login } from "../shared/services/usuarioService";
 import { Navigate, useNavigate } from "react-router-dom";
 import { establecerVariablesSesion, isAuthenticated } from "../shared/services/sesionService";
 import { useState } from 'react';
+import { FormikText } from '../shared/components/FormikControl';
 
 const yupSchema = Yup.object().shape({
     username: Yup.string().required('Este campo es obligatorio'),
